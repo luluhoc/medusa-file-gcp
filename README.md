@@ -12,7 +12,11 @@ Google Cloud Platform (GCP) storage plugin for Medusa.js
 1. Run the following command in the directory of your Medusa backend:
 
 ```
-npm install medusa-plugin-gcp
+yarn add medusa-plugin-google-bucket
+```
+
+```
+npm install medusa-plugin-google-bucket
 ```
 
 2. Add following environment variables into your `.env`:
@@ -25,7 +29,7 @@ GCP_CLIENT_EMAIL=<YOUR_SERVICE_ACCOUNT_IAM_EMAIL>
 
 3. Open your `medusa.config.js` and add the below configuration:
 
-```js
+```ts
 module.exports = {
   plugins: [
     ...otherMedusaPlugins,
