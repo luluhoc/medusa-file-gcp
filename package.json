@@ -14,7 +14,8 @@
     "gcp",
     "google cloud",
     "filestorage",
-    "medusa-plugin"
+    "medusa-plugin",
+    "medusa-plugin-storage"
   ],
   "scripts": {
     "bundle": "esbuild src/services/** --outdir=dist --format=cjs --target=esnext",
