@@ -17,7 +17,7 @@
     "medusa-plugin"
   ],
   "scripts": {
-    "bundle": "esbuild src/services/** --outdir=services --format=cjs --target=esnext",
+    "bundle": "esbuild src/services/** --outdir=dist --format=cjs --target=esnext",
     "bundle-swc": "swc src -d .",
     "build": "yarn bundle",
     "build:ci": "yarn bundle",
@@ -30,7 +30,7 @@
     "medusa-interfaces": "1.x"
   },
   "files": [
-    "services"
+    "dist"
   ],
   "devDependencies": {
     "@types/formidable": "^2.0.3",
