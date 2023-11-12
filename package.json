@@ -1,6 +1,6 @@
 {
   "name": "medusa-plugin-google-bucket",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Google cloud storage plugin for medusajs",
   "main": "index.js",
   "author": "Lucjan Grzesik",
@@ -14,7 +14,6 @@
     "gcp",
     "google cloud",
     "filestorage",
-    "medusa-plugin",
     "medusa-plugin-storage"
   ],
   "scripts": {
